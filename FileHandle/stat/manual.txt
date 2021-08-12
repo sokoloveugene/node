@@ -1,0 +1,8 @@
+stats.isDirectory(): It returns true if stats object describes a file system directory.
+stats.isFile(): It returns true if stats object describes a regular file.
+stats.isSocket(): It returns true if stats object describes a socket.
+stats.isSymbolicLink(): It returns true if stats object describes a symbolic link.
+stats.isFile(): It returns true if stats object describes a regular file.
+stats.isFIFO(): It returns true if stats object describes first in first out pipe.
+stats.size: It specifies the size of the file in bytes.
+stats.blocks: It specifies the number of blocks allocated for the file.
