@@ -1,0 +1,1 @@
+this file will be deleted if we pass {recursive: true} option into rmdir
