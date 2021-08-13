@@ -3,6 +3,8 @@ const path = require("path");
 
 // 1) if dir is not empty => error ENOTEMPTY
 // 2) using { recursive: true } option will delete NOT empty dir
+// 3) without { recursive: true } option err if dir does not exist F.E path.join(process.cwd(), "temp-2");
+
 
 const removeDirFn = async () => {
   try {
